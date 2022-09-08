@@ -6,9 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  isWarning = false;
 
-  toggleIsWarning(): void {
-    this.isWarning = !this.isWarning;
+  username: string;
+
+  clearName(): void {
+    this.username = '';
   }
 }
